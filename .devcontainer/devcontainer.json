@@ -1,0 +1,12 @@
+{
+  "name": "modern-resume-theme (Jekyll)",
+  "image": "mcr.microsoft.com/devcontainers/jekyll:2-bullseye",
+  "postCreateCommand": "bundle install",
+  "forwardPorts": [4000],
+  "portsAttributes": {
+    "4000": {
+      "label": "Jekyll Site",
+      "onAutoForward": "openPreview"
+    }
+  }
+}
